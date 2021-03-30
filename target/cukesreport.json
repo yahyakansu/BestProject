@@ -1,0 +1,186 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User can login with valid credentials",
+        "description": "",
+        "id": "user-rules;user-can-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat utilities.Driver.getDriver(Driver.java:22)\n\tat stepDefs.UserRulesStepDefs.user_on_the_homepage(UserRulesStepDefs.java:20)\n\tat ✽.user on the homepage(src/test/resources/features/userRules.feature:5)\n",
+              "duration": 5808847,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user on the homepage",
+            "match": {
+              "location": "UserRulesStepDefs.user_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13504,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user write correct username",
+            "match": {
+              "location": "UserRulesStepDefs.user_write_correct_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7406,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user write correct password",
+            "match": {
+              "location": "UserRulesStepDefs.user_write_correct_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17577,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user write correct company code",
+            "match": {
+              "location": "UserRulesStepDefs.user_write_correct_company_code()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3839,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user click the button",
+            "match": {
+              "location": "UserRulesStepDefs.user_click_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5493,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enter the app",
+            "match": {
+              "location": "UserRulesStepDefs.user_enter_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllProducts"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@User"
+          },
+          {
+            "name": "@UserCredential"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "User has to select from the available sub agents to proceed further",
+        "description": "    with manual transaction process or upload transaction process.",
+        "id": "user-rules;user-has-to-select-from-the-available-sub-agents-to-proceed-further",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "user on the user page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user select a sub agent",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "user should see the transaction page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllProducts"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@User"
+          },
+          {
+            "name": "@UserSelectAgent"
+          }
+        ]
+      }
+    ],
+    "name": "User Rules",
+    "description": "",
+    "id": "user-rules",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/userRules.feature",
+    "tags": [
+      {
+        "name": "@AllProducts",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      },
+      {
+        "name": "@User",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 26
+        }
+      }
+    ]
+  }
+]
